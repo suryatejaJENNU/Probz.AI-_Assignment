@@ -1,0 +1,22 @@
+.TimeframeSelector {
+  margin-bottom: 20px;
+}
+
+.TimeframeSelector label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.TimeframeSelector select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.TimeframeSelector select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

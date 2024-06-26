@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Charting Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based charting application that allows users to visualize data using recharts library and export the chart as a PNG image.
 
-## Available Scripts
+# Deployment
+The project is deployed at https://suryateja-probzai-assignment.netlify.app/.
 
-In the project directory, you can run:
+# GitHub Repository
+GitHub Repository: https://github.com/suryatejaJENNU/Probz.AI-_Assignment
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Charting:** Displays a line chart using recharts library.
+- **Timeframe Selection:** Allows users to switch between daily, weekly, and monthly data views.
+- **Export Chart:** Enables users to export the chart as a PNG image.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React:** Frontend library for building user interfaces.
+- **recharts:** React charting library for creating charts.
+- **html2canvas:** Library to capture screenshots and export them as images.
+- **TypeScript:** Typed superset of JavaScript for improved code quality and development experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/suryatejaJENNU/Probz.AI-_Assignment
+   cd Probz.AI-_Assignment
+2. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    bash
+    Copy code
+    npm install
+    Running the Application
+    Start the development server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    bash
+    Copy code
+    npm start
+    Open your browser and go to http://localhost:3000 to view the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Usage
+    Select a timeframe (daily, weekly, monthly) using the dropdown selector to update the chart.
+    Click on the "Export Chart" button to download the chart as a PNG image.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Folder Structure 
+    /public 
+    /assets
+    data.json             # Sample data for the chart
+    /src
+    /components
+    Chart.tsx             # Main chart component
+    TimeframeSelector.tsx # Component for selecting timeframe
+    Chart.css             # Stylesheet for chart component
+    TimeframeSelector.css # Stylesheet for timeframe selector component
+  App.tsx                 # Main application component
+  index.tsx               # Entry point of the application
 
-## Learn More
+### Explanation:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Project Overview:** Briefly describes what the project is about and its main functionalities (charting, timeframe selection, export).
+- **Features:** Lists key features of the application.
+- **Technologies Used:** Highlights the technologies and libraries used in the project.
+- **Getting Started:** Provides instructions on how to clone the repository, install dependencies, and run the application locally.
+- **Usage:** Explains how to use the application, including selecting timeframes and exporting charts.
+- **Folder Structure:** Illustrates the folder structure of the project for better navigation and understanding.
